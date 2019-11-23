@@ -13,7 +13,7 @@ tags:
 CSS 框模型 (Box Model) 规定了元素框处理元素内容、内边距、边框 和 外边距 的方式。
 示意图:
 
-![Box Model](http://www.w3school.com.cn/i/ct_boxmodel.gif)
+![Box Model](https://www.w3school.com.cn/i/ct_boxmodel.gif)
 
 		
 - **另外**: css3 出了个 `box-sizing` 属性可以改变盒模型:详情可了解[这里](http://www.w3school.com.cn/cssref/pr_box-sizing.asp)
