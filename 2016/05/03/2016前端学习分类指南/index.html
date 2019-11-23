@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 3.9.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon.png?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32.png?v=7.4.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16.png?v=7.4.0">
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=7.4.0" color="#222">
+
+<link rel="stylesheet" href="/blog/css/main.css?v=7.4.0">
+
+
+<link rel="stylesheet" href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Gemini',
+    version: '7.4.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":true,"style":"flat"},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: true,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="此文介绍了我个人学习前端所总结的资源分类大纲.每个栏目下的推荐部分基本为必要的,可选的部分以后也是要学的…同时也已经入了全栈的坑,不过我后端还是入门不久,因此这里一笔带过.若文章在作为自己路灯的同时,也能照亮他人,那实为一件荣幸之事~ 前端基础前端学习中最原始也是最重要的东西:  html5 css3 js/es6  github上的前端学习指导牛人总结的学习大纲  推荐 前端学习指南 前端系统图">
+<meta name="keywords" content="前端,全栈,指南">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2016前端学习分类指南">
+<meta property="og:url" content="https://jiangshaokun.github.io/2016/05/03/2016前端学习分类指南/index.html">
+<meta property="og:site_name" content="江的博客">
+<meta property="og:description" content="此文介绍了我个人学习前端所总结的资源分类大纲.每个栏目下的推荐部分基本为必要的,可选的部分以后也是要学的…同时也已经入了全栈的坑,不过我后端还是入门不久,因此这里一笔带过.若文章在作为自己路灯的同时,也能照亮他人,那实为一件荣幸之事~ 前端基础前端学习中最原始也是最重要的东西:  html5 css3 js/es6  github上的前端学习指导牛人总结的学习大纲  推荐 前端学习指南 前端系统图">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-11-23T14:39:05.735Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="2016前端学习分类指南">
+<meta name="twitter:description" content="此文介绍了我个人学习前端所总结的资源分类大纲.每个栏目下的推荐部分基本为必要的,可选的部分以后也是要学的…同时也已经入了全栈的坑,不过我后端还是入门不久,因此这里一笔带过.若文章在作为自己路灯的同时,也能照亮他人,那实为一件荣幸之事~ 前端基础前端学习中最原始也是最重要的东西:  html5 css3 js/es6  github上的前端学习指导牛人总结的学习大纲  推荐 前端学习指南 前端系统图">
+  <link rel="canonical" href="https://jiangshaokun.github.io/2016/05/03/2016前端学习分类指南/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>2016前端学习分类指南 | 江的博客</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/blog/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">江的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">落魄前端，在线炒粉</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/blog/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-about">
+      
+    
+
+    <a href="/blog/profile/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/blog/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a href="javascript:;" class="popup-trigger">
+        
+          <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+      </li>
+    
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+            
+
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+      <article itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block post">
+    <link itemprop="mainEntityOfPage" href="https://jiangshaokun.github.io/blog/2016/05/03/2016前端学习分类指南/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="江绍坤">
+      <meta itemprop="description" content="何以解忧，唯有 __ __">
+      <meta itemprop="image" content="/blog/images/missa.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="江的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">2016前端学习分类指南
+
+          
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2016-05-03 00:00:00" itemprop="dateCreated datePublished" datetime="2016-05-03T00:00:00+00:00">2016-05-03</time>
+            </span>
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-11-23 14:39:05" itemprop="dateModified" datetime="2019-11-23T14:39:05+00:00">2019-11-23</time>
+              </span>
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/categories/学习指南/" itemprop="url" rel="index"><span itemprop="name">学习指南</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>此文介绍了我个人学习前端所总结的资源分类大纲.每个栏目下的<strong>推荐</strong>部分基本为必要的,<strong>可选</strong>的部分以后也是要学的…同时也已经入了全栈的坑,不过我后端还是入门不久,因此这里一笔带过.若文章在作为自己路灯的同时,也能照亮他人,那实为一件荣幸之事~</p>
+<h3 id="前端基础"><a href="#前端基础" class="headerlink" title="前端基础"></a>前端基础</h3><p>前端学习中最原始也是最重要的东西:</p>
+<ul>
+<li>html5</li>
+<li>css3</li>
+<li>js/es6</li>
+</ul>
+<h3 id="github上的前端学习指导"><a href="#github上的前端学习指导" class="headerlink" title="github上的前端学习指导"></a>github上的前端学习指导</h3><p>牛人总结的学习大纲</p>
+<ul>
+<li>推荐<ul>
+<li><a href="https://github.com/jsfront/src/blob/master/qq.md" target="_blank" rel="noopener">前端学习指南</a></li>
+<li><a href="https://github.com/ouvens/frontend-system-map" target="_blank" rel="noopener">前端系统图谱</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="类库"><a href="#类库" class="headerlink" title="类库"></a>类库</h3><p>类库是一些函数的集合，它能帮助你写WEB应用。起主导作用的是你的代码，由你来决定何时使用类库。</p>
+<ul>
+<li>推荐<ul>
+<li>jQuery: A fast, small, and feature-rich JavaScript library.</li>
+<li>animateCss: css3动画库</li>
+<li>underscore.js: 是一个 JavaScript 工具库，它提供了一整套函数式编程的实用功能，但是没有扩展任何 JavaScript 内置对象。 他解决了这个问题：“如果我面对一个空白的 HTML 页面，并希望立即开始工作，我需要什么？” 他弥补了 jQuery 没有实现的功能，同时又是 Backbone 必不可少的部分。</li>
+<li>Lodash: underscore.js衍生</li>
+</ul>
+</li>
+<li>可选    <ul>
+<li>socket.io: websocket实时应用框架</li>
+<li>D3.js: 是一个JavaScript库，它可以通过数据来操作文档</li>
+<li>moment.js: JavaScript 日期处理类库</li>
+<li>prototype.js: 原生 js 扩展</li>
+<li>easing.js: jquery 缓冲动画插件</li>
+<li>ceaser: CSS EASING ANIMATION TOOL</li>
+<li>cubic-bezier: 赛贝尔曲线</li>
+</ul>
+</li>
+</ul>
+<h3 id="mv-框架"><a href="#mv-框架" class="headerlink" title="mv* 框架"></a>mv* 框架</h3><p>框架 - 框架是一种特殊的、已经实现了的WEB应用，你只需要对它填充具体的业务逻辑。这里框架是起主导作用的，由它来根据具体的应用逻辑来调用你的代码。</p>
+<ul>
+<li>推荐<ul>
+<li>vueJS: view 层,数据驱动的组件，为现代化的 Web 界面而生. - 尤雨溪</li>
+<li>angularJS: 为了克服HTML在构建应用上的不足而设计的. - Google</li>
+<li>reactJS: view 层,A JAVASCRIPT LIBRARY FOR BUILDING USER INTERFACES. - Facebook</li>
+<li>backbone.js: 简单纯粹的 mv* 框架.最佳适用场景是单页面应用，并且页面上有大量数据模型，模型之间需要进行复杂的信息沟通。</li>
+</ul>
+</li>
+<li>可选    <ul>
+<li>avalonJS: 迷你 mvvm 框架,司徒正美 去哪儿网</li>
+<li>Ember.js: A framework for creating ambitious web applications.</li>
+<li>Meteor: build app with JavaScript.现代网站开发平台，希望构建一个极简的网站开发环境。</li>
+<li>Flux: 配合 react,用来构建用户端的web应用的应用程序体系架构。- Facebook</li>
+<li>Redux: 配合 react,Redux is a predictable state container for JavaScript apps.是一个友好简洁的 flux 模式的实现.意义:实现前后端同构,更好组织 UI 组件事件分发.</li>
+<li>ThinkJS: 一个快速、简单的基于MVC和面向对象的轻量级Node.js开发框架.使用了 ES6/7.全栈开发</li>
+</ul>
+</li>
+</ul>
+<h3 id="UI-框架"><a href="#UI-框架" class="headerlink" title="UI 框架"></a>UI 框架</h3><p>快速建站框架</p>
+<ul>
+<li>推荐    <ul>
+<li>Bootstrap: the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. - Facebook</li>
+<li>amaze ui: 中国首个开源 HTML5 跨屏前端框架. - 妹子 UI</li>
+</ul>
+</li>
+<li>常用    <ul>
+<li>foundation: 迄今为止最好的响应式前端框架，更快、更轻、更多功能、更灵活、更强大！</li>
+<li>semantic ui: 语义化的网页语言</li>
+<li>frozen ui: 简单易用，轻量快捷，为移动端服务的前端框架. - 手机QQ UI</li>
+<li>weiui: 微信官方网页开发样式库.</li>
+<li>blendui: 移动web开发框架,通过集成原生组件令App体验一流，并为O2O场景特别优化. - 百度 UI</li>
+<li>echarts: 一个纯 Javascript 的图表库. - 百度</li>
+<li>jqwidgets: Advanced JavaScript &amp; HTML5 UI Framework</li>
+</ul>
+</li>
+</ul>
+<h3 id="游戏引擎"><a href="#游戏引擎" class="headerlink" title="游戏引擎"></a>游戏引擎</h3><p>h5 游戏开发</p>
+<ul>
+<li>推荐    <ul>
+<li>egret: 国产2D,现在可以3D.中文易学些.</li>
+<li>createJs: 基于HTML5开发的一套模块化的库和工具，拥有共同或独立工作的丰富交互式内容的开源Web技术。</li>
+<li>pixiJs: 2D webGL renderer with canvas fallback</li>
+<li>threeJs: 3D JavaScript Library</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>pomelo: Fast, scalable, distributed game server framework for node.js. - 网易</li>
+</ul>
+</li>
+</ul>
+<h3 id="混合应用框架"><a href="#混合应用框架" class="headerlink" title="混合应用框架"></a>混合应用框架</h3><p>web 入侵其他领域</p>
+<ul>
+<li>推荐    <ul>
+<li>reactNative: Learn once, write anywhere.构建原生 APP</li>
+<li>nwjs: node-webkit.桌面应用框架</li>
+</ul>
+</li>
+<li>可选    <ul>
+<li>ionic: HTML5 Hybrid Mobile App Framework.AngularJS移动端解决方案</li>
+<li>hex: USING HTML5 AND NODE.JS TO BUILD DESKTOP APPLICATION. - 网易有道</li>
+<li>appjs: 一个令人振奋的 JavaScript 库，使我们能够使用 Web 技术快速开发桌面应用程序</li>
+<li>Electron: Build cross platform desktop apps with web technologies</li>
+</ul>
+</li>
+</ul>
+<h3 id="预处理器"><a href="#预处理器" class="headerlink" title="预处理器"></a>预处理器</h3><p>处理兼容或者便于管理,快速书写</p>
+<ul>
+<li>推荐    <ul>
+<li>less/scss: css 预处理器</li>
+<li>babel: es6 语法预编译</li>
+</ul>
+</li>
+<li>可选    <ul>
+<li>polyfill: 使浏览器支持应有特性</li>
+<li>shim: 使浏览器支持新特性</li>
+<li>bluebird: Full featured Promises/A+ implementation with exceptionally good performance</li>
+</ul>
+</li>
+</ul>
+<h3 id="移动端框架"><a href="#移动端框架" class="headerlink" title="移动端框架"></a>移动端框架</h3><p>移动开发常用</p>
+<ul>
+<li>推荐    <ul>
+<li>zepto: 轻量jQuery</li>
+<li>swiper: 移动端网页触摸内容滑动js插件.</li>
+<li>touch: BAIDU CLOUDA EVENT &amp; GESTURE LIBRARY</li>
+<li>hammerjs: 是一个开源的，轻量级的javascript库，它可以在不需要依赖其他东西的情况下识别触摸，鼠标事件。</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>iscroll: smooth scrolling for the web</li>
+<li>video.js: html5 视频框架</li>
+</ul>
+</li>
+</ul>
+<h3 id="构建工具"><a href="#构建工具" class="headerlink" title="构建工具"></a>构建工具</h3><p>构建自己的前端工作流</p>
+<ul>
+<li>推荐<ul>
+<li>bower: 前端包管理</li>
+<li>npm: nodejs package manager</li>
+<li>gulp: 前端构建工具</li>
+<li>browserify: 模块化</li>
+<li>requireJs: 模块化amd</li>
+<li>webpack: 模块化与前端构建 commonjs&amp;amd. - Facebook</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>seaJs: 模块化cmd. - 玉伯 淘宝</li>
+<li>fis: 为你定制的前端工程构建工具. - 百度</li>
+</ul>
+</li>
+</ul>
+<h3 id="开发组合"><a href="#开发组合" class="headerlink" title="开发组合"></a>开发组合</h3><p>开发全家桶</p>
+<ul>
+<li>推荐<ul>
+<li>gulp+browserify+babel: 前端构建套装</li>
+<li>react + webpack + babel: react项目构建</li>
+<li>react+flux+koa: react 应用开发套装</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>mean: mongoDB express angular nodejs 全栈套餐</li>
+</ul>
+</li>
+</ul>
+<h3 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h3><p>不会后端的前端不是好前端</p>
+<ul>
+<li>推荐<ul>
+<li>php+mysql</li>
+<li>nodejs+mongoDB</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>thinkphp: 是一个快速、兼容而且简单的轻量级国产PHP开发框架</li>
+<li>laravel: 为 WEB 艺术家创造的 PHP 框架</li>
+<li>express/koa: 基于 Node.js 平台，快速、开放、极简的 web 开发框架。</li>
+<li>jade: 源于 Node.js 的 HTML 模板引擎</li>
+</ul>
+</li>
+</ul>
+<h3 id="工具网站"><a href="#工具网站" class="headerlink" title="工具网站"></a>工具网站</h3><p>有用而有趣的工具</p>
+<ul>
+<li>推荐<ul>
+<li>codepen: web在线编辑,各种栗子</li>
+<li>github: 世界著名同性交友网站</li>
+<li>can i use: Support tables for HTML5, CSS3, etc</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>easyicon: 图标</li>
+<li>iconfont: 图标字体</li>
+<li>impress.js: It’s a presentation framework based on the power of CSS3 transforms and transitions in modern browsers.</li>
+<li>reveal.js: A framework for easily creating beautiful presentations using HTML</li>
+<li>lantern: 翻墙</li>
+</ul>
+</li>
+</ul>
+<h3 id="学习资讯"><a href="#学习资讯" class="headerlink" title="学习资讯"></a>学习资讯</h3><p>学习是一门技巧</p>
+<ul>
+<li>推荐<ul>
+<li>阮一峰个人网站: 大神!但可能出现几年后他说之前理解错了的情况,被误导就怪自己修行不够</li>
+<li>廖雪峰个人网站: 只看了 git 教程, 简单易懂</li>
+<li>张鑫旭个人网站: 风格有点奇怪但是很厉害</li>
+<li>尤雨溪个人网站: 严格意义上的大神</li>
+<li><a href="http://taobaofed.org/" target="_blank" rel="noopener">http://taobaofed.org/</a>: 淘宝前端团队</li>
+<li>alloyteam: 腾讯全端团队</li>
+<li>ISUX: 腾讯社交用户体验设计</li>
+<li>奇舞团: 360前端</li>
+<li>知乎: 问答社区</li>
+<li>stackoverflow: 问答社区</li>
+<li>慕课网: IT 教程</li>
+<li>w3cshool: web 教程</li>
+<li>w3cplus: 引领web前沿,打造前端精品教程</li>
+<li>菜鸟教程: 入门教程</li>
+<li>segmentfault.com: 是一个专注于解决编程问题，提高开发技能的社区。页面好看,回答好,有教程.</li>
+<li>推酷: IT人专属个性阅读社区.</li>
+<li>伯乐在线: 做最专业的IT互联网职业社区</li>
+<li>开源中国: 找到您想要的开源项目，分享和交流.</li>
+<li>htmleaf: jQuery之家,自由分享jQuery、html5和css3的插件库</li>
+<li>dowebok: 意为做好网站,为用户提供代码、素材、特效、教程、模板等建站服务。</li>
+<li>微信,微博,qq: 关注些牛人, 技术资讯, 加入些技术干货群</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>cnblog: 面向开发者的知识分享社区.</li>
+<li>CSDN: 中文 IT 社区</li>
+<li>open-open.com: 您的生活化网络和IT资讯来源</li>
+<li>html5中国: html5中文社区</li>
+<li>极客学院: 各种教程</li>
+<li>Codepad: a place for developers to share &amp; save code snippets. Join the community!</li>
+<li>v2ex.com: V2EX 是一个关于分享和探索的地方</li>
+<li>数英: 数字媒体及职业招聘网站</li>
+<li>码农网: 编程经验分享</li>
+<li>简书: 交流故事，沟通想法,一个基于内容分享的社区</li>
+<li>简明现代魔法: 加入魔法协会，一起分享编程的快乐</li>
+<li>cocoachina: 让移动开发更简单</li>
+<li>脚本之家</li>
+<li>红黑联盟: IT 门户</li>
+<li>程序师: 用程序猿的阳光看世界</li>
+</ul>
+</li>
+</ul>
+<h3 id="书籍"><a href="#书籍" class="headerlink" title="书籍"></a>书籍</h3><p>只看过一本纸质书,但是觉得很有用</p>
+<ul>
+<li>推荐<ul>
+<li>Javascript设计模式</li>
+</ul>
+</li>
+</ul>
+<h3 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h3><p>不会搞艺术的程序员不是好设计师</p>
+<ul>
+<li>推荐<ul>
+<li>ps: 切图(cutterman)</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>sketch: mac 设计</li>
+<li>axure: 交互原型设计</li>
+<li>xmind: 脑图</li>
+</ul>
+</li>
+</ul>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>必备防身技能</p>
+<ul>
+<li>推荐<ul>
+<li>git: 版本管理</li>
+<li>HTTP</li>
+<li>TCP/IP</li>
+<li>seo: 搜索引擎优化</li>
+<li>shell: 命名行</li>
+<li>微信jssdk: 微信h5开发</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>cdn: 内容分发网络</li>
+<li>REST API</li>
+<li>markdown</li>
+</ul>
+</li>
+</ul>
+<h3 id="加分"><a href="#加分" class="headerlink" title="加分"></a>加分</h3><p>养成良好习惯,做点能出手的东西</p>
+<ul>
+<li>推荐</li>
+</ul>
+<ol>
+<li>技术博客</li>
+<li>github</li>
+<li>优秀项目</li>
+<li>收集常遇到的问题</li>
+<li>全栈</li>
+</ol>
+<h3 id="编辑器"><a href="#编辑器" class="headerlink" title="编辑器"></a>编辑器</h3><p>好的编辑器对编程速度和质量都很重要</p>
+<ul>
+<li>推荐<ul>
+<li>sublime: 轻量,丰富插件</li>
+<li>idea/webstorm/phpstorm: 强大</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>vscode: 开源,听说好厉害的样子,但是没研究过</li>
+</ul>
+</li>
+</ul>
+<h3 id="前端优化"><a href="#前端优化" class="headerlink" title="前端优化"></a>前端优化</h3><p>优化有很多,网页收藏,云笔记也好,最重要是要用</p>
+<ul>
+<li>推荐<ul>
+<li>雅虎军规</li>
+<li>兼容</li>
+<li>移动端优化</li>
+</ul>
+</li>
+</ul>
+<h3 id="开发调试"><a href="#开发调试" class="headerlink" title="开发调试"></a>开发调试</h3><p>少几个bug吧</p>
+<ul>
+<li>推荐<ul>
+<li>单元测试</li>
+<li>chromeDevTools 调试</li>
+</ul>
+</li>
+<li>可选<ul>
+<li>jshint</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+
+    
+    
+    
+        
+      
+
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/blog/tags/前端/" rel="tag"># 前端</a>
+            
+              <a href="/blog/tags/全栈/" rel="tag"># 全栈</a>
+            
+              <a href="/blog/tags/指南/" rel="tag"># 指南</a>
+            
+          </div>
+        
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+                <a href="/blog/2016/05/07/DOCTYPE与标准模式和怪异模式/" rel="prev" title="DOCTYPE与标准模式和怪异模式">
+                  DOCTYPE与标准模式和怪异模式 <i class="fa fa-chevron-right"></i>
+                </a>
+              
+            </div>
+          </div>
+        
+      </footer>
+    
+  </div>
+  
+  
+  
+  </article>
+
+  </div>
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+        
+        
+        
+        
+      
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前端基础"><span class="nav-number">1.</span> <span class="nav-text">前端基础</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#github上的前端学习指导"><span class="nav-number">2.</span> <span class="nav-text">github上的前端学习指导</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#类库"><span class="nav-number">3.</span> <span class="nav-text">类库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#mv-框架"><span class="nav-number">4.</span> <span class="nav-text">mv* 框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#UI-框架"><span class="nav-number">5.</span> <span class="nav-text">UI 框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#游戏引擎"><span class="nav-number">6.</span> <span class="nav-text">游戏引擎</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#混合应用框架"><span class="nav-number">7.</span> <span class="nav-text">混合应用框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#预处理器"><span class="nav-number">8.</span> <span class="nav-text">预处理器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#移动端框架"><span class="nav-number">9.</span> <span class="nav-text">移动端框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#构建工具"><span class="nav-number">10.</span> <span class="nav-text">构建工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#开发组合"><span class="nav-number">11.</span> <span class="nav-text">开发组合</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#后端"><span class="nav-number">12.</span> <span class="nav-text">后端</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#工具网站"><span class="nav-number">13.</span> <span class="nav-text">工具网站</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#学习资讯"><span class="nav-number">14.</span> <span class="nav-text">学习资讯</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#书籍"><span class="nav-number">15.</span> <span class="nav-text">书籍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设计"><span class="nav-number">16.</span> <span class="nav-text">设计</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#其他"><span class="nav-number">17.</span> <span class="nav-text">其他</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#加分"><span class="nav-number">18.</span> <span class="nav-text">加分</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#编辑器"><span class="nav-number">19.</span> <span class="nav-text">编辑器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#前端优化"><span class="nav-number">20.</span> <span class="nav-text">前端优化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#开发调试"><span class="nav-number">21.</span> <span class="nav-text">开发调试</span></a></li></ol></div>
+        
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image"
+      src="/blog/images/missa.jpg"
+      alt="江绍坤">
+  <p class="site-author-name" itemprop="name">江绍坤</p>
+  <div class="site-description" itemprop="description">何以解忧，唯有 __ __</div>
+</div>
+  <nav class="site-state motion-element">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/blog/archives/">
+        
+          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span>
+        
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">标签</span>
+        
+      </div>
+    
+  </nav>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+      
+        
+      
+        <a href="https://github.com/jiangshaokun" title="GitHub &rarr; https://github.com/jiangshaokun" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+      
+        
+      
+        <a href="mailto:1455935316@qq.com" title="E-Mail &rarr; mailto:1455935316@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+      </span>
+    
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    
+  
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/blog/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+      
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">江绍坤</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.9.0</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.4.0</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+
+
+  <script src="/blog/lib/anime.min.js?v=3.1.0"></script>
+  <script src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script src="//cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script>
+<script src="/blog/js/utils.js?v=7.4.0"></script><script src="/blog/js/motion.js?v=7.4.0"></script>
+<script src="/blog/js/schemes/pisces.js?v=7.4.0"></script>
+
+<script src="/blog/js/next-boot.js?v=7.4.0"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script src="/blog/js/local-search.js?v=7.4.0"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
