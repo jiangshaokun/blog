@@ -43,4 +43,4 @@ date: 2019-09-22 02:50:02
 
 ## 联系
 
-![微信](/images/my-wechat.jpg)
+![微信](/blog/images/my-wechat.jpg)
